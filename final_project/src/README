@@ -1,0 +1,13 @@
+--How to Compile
+    In this directory, enter the following command:
+    $ make
+    It will generate the executable file "project" in "Project/bin/".
+
+    If you want to remove .o files and the executable file, please enter the following command:
+    $ make clean
+
+--How to Run
+    In this directory, enter the following command:
+    Usage: ../bin/<exe>  <info file>  <nets file>  <output file>
+    e.g.:
+    $ ../bin/project ../benchmarks/alu4_4.info ../benchmarks/alu4_4.nets ../outputs/alu4_4.placement
